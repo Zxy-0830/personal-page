@@ -106,7 +106,7 @@ body {
   color: var(--text-color);
   background-color: #1489ff;
   padding: 15px 30px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border-radius: 40px;
   text-decoration: none;
   transition: background 0.3s ease, color 0.3s ease;
@@ -155,14 +155,17 @@ section h2 {
 }
 
 .project-card {
-  background: var(--card-bg);
-  border-radius: 8px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #191919, #1e1e1e);
+    box-shadow:  25px 25px 50px #181818,
+                 -25px -25px 50px #202020;
   padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
   transition: transform 0.3s ease;
 }
 
-.project-card i,
+.project-card i {
+    color: #722fac;
+}
 .project-card h3 {
   display: inline-block;
   vertical-align: middle;
@@ -215,7 +218,7 @@ section h2 {
 }
 
 .contact-icons a:hover {
-  color: #fff;      
+  color: #5b2681;      
 }
 
 
