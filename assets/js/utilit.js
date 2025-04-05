@@ -1,4 +1,5 @@
 'use strict';
+
 function onEvent(event, selector, callback) {
     return selector.addEventListener(event, callback);
 }
