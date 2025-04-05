@@ -82,6 +82,21 @@ body {
   color: var(--accent-color);
 }
 
+@media (max-width: 768px) {
+  .logo a {
+    font-size: 2rem;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 1.4rem;
+    padding: 5px 6px;
+  }
+}
+
    #hero {
     background: url(../media/img-02.jpg) no-repeat center center;
     background-size: cover;
