@@ -3,7 +3,7 @@
 :root {
   --primary-color: #1f1f1f;   
   --secondary-color: #2c2c2c; 
-  --accent-color: #383838;    
+  --accent-color: #b9089e;    
   --bg-color: #121212;        
   --section-bg: #181818;     
   --card-bg: #1c1c1c;         
@@ -57,7 +57,7 @@ body {
 
 .logo a {
   font-family: 'Oswald', serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--text-color);
   text-decoration: none;
 }
@@ -128,9 +128,15 @@ body {
 .hero-container p {
   font-size: 3rem;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   line-height: 1.1;
 }
+
+.hero-container .hello {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
 
 .btn {
   display: inline-block;
@@ -157,7 +163,7 @@ section {
 
 section h2 {
   font-family: var(--heading-font);
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -166,7 +172,7 @@ section h2 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 40px;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
@@ -205,7 +211,7 @@ section h2 {
 }
 
 #projects .container h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #333;
 }
 
@@ -270,7 +276,7 @@ section h2 {
 }
 
 #contact h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 30px;
 }
 
